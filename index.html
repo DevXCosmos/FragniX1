@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<!-- "ROBO BABY HEAD" (https://skfb.ly/oAnZq) by Elvis Thermo is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/) -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stars.css">
+    <title>FragniX™ by dXcm | A pristine code editor</title>
+</head>
+<body>
+
+    <section id="home">
+
+
+
+    <div id="custom-cursor">
+        <div id="cursor-background"></div>
+        <div id="cursor-dot"></div>
+    </div>
+
+
+    <header>
+        <div>
+            <h1>dXcm</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><button id="projects" onclick="window.open('https://discord.gg/AGdKx9SaRB')">Join Us</button></li>
+                <li><button id="team" onclick="window.open('https://github.com/devXcosmos')">Team</button></li>
+                <li><button id="contact" onclick="window.open('https://discord.gg/HHBEMdXCsN')">Discord</button></li>
+                <li><button id="work" onclick="window.open('https://github.com/devXcosmos')">Github</button></li>
+                <!-- MERCH STORE LINK
+                <li id="store">Coming Soon!</div></li>  -->
+
+            </ul>
+        </nav>
+        
+    </header>
+
+
+    <div class="sky">
+        <p id="star1">.</p>
+        <p id="star2">.</p>
+        <p id="star3">.</p>
+        <p id="star4">.</p>
+        <p id="star5">.</p>
+        <p id="star6">.</p>
+        <p id="star7">.</p>
+        <p id="star8">.</p>
+        <p id="star9">.</p>
+        <p id="star10">.</p>
+        <p id="star11">.</p>
+        <p id="star12">.</p>
+        <p id="star13">.</p>
+        <p id="star14">.</p>
+        <p id="star15">.</p>
+        <p id="star16">.</p>
+        <p id="star17">.</p>
+        <p id="star18">.</p>
+        <p id="star19">.</p>
+        <p id="star20">.</p>
+        <p id="star21">.</p>
+        <p id="star22">.</p>
+        <p id="star23">.</p>
+        <p id="star24">.</p>
+        <p id="star25">.</p>
+        <p id="star26">.</p>
+        <p id="star27">.</p>
+        <p id="star28">.</p>
+        <p id="star29">.</p>
+        <p id="star30">.</p>
+        <p id="star31">.</p>
+        <p id="star32">.</p>
+        <p id="star33">.</p>
+        <p id="star34">.</p>
+        <p id="star35">.</p>
+        <p id="star36">.</p>
+        <p id="star37">.</p>
+        <p id="star38">.</p>
+        <p id="star39">.</p>
+        <p id="star40">.</p>
+        <p id="star41">.</p>
+        <p id="star42">.</p>
+        <p id="star43">.</p>
+        <p id="star44">.</p>
+        <p id="star45">.</p>
+        <p id="star46">.</p>
+        <p id="star47">.</p>
+        <p id="star48">.</p>
+        <p id="star49">.</p>
+        <p id="star50">.</p>
+        <p id="star51">.</p>
+        <p id="star52">.</p>
+        <p id="star53">.</p>
+        <p id="star54">.</p>
+        <p id="star55">.</p>
+        <p id="star56">.</p>
+        <p id="star57">.</p>
+        <p id="star58">.</p>
+        <p id="star59">.</p>
+        <p id="star60">.</p>
+        <p id="star61">.</p>
+        <p id="star62">.</p>
+        <p id="star63">.</p>
+        <p id="star64">.</p>
+        <p id="star65">.</p>
+        <p id="star66">.</p>
+        <p id="star67">.</p>
+        <p id="star68">.</p>
+        <p id="star69">.</p>
+        <p id="star70">.</p>
+        <p id="star71">.</p>
+        <p id="star72">.</p>
+        <p id="star73">.</p>
+        <p id="star74">.</p>
+        <p id="star75">.</p>
+        <p id="star76">.</p>
+        <p id="star77">.</p>
+        <p id="star78">.</p>
+        <p id="star79">.</p>
+        <p id="star80">.</p>
+        <p id="star81">.</p>
+        <p id="star82">.</p>
+        <p id="star83">.</p>
+        <p id="star84">.</p>
+        <p id="star85">.</p>
+        <p id="star86">.</p>
+        <p id="star87">.</p>
+        <p id="star88">.</p>
+        <p id="star89">.</p>
+        <p id="star90">.</p>
+        <p id="star91">.</p>
+        <p id="star92">.</p>
+        <p id="star93">.</p>
+        <p id="star94">.</p>
+        <p id="star95">.</p>
+        <p id="star96">.</p>
+        <p id="star97">.</p>
+        <p id="star98">.</p>
+        <p id="star99">.</p>
+        <p id="star100">.</p>
+    </div>
+<style>
+    #custom-cursor {
+        position: fixed;
+        pointer-events: none;
+        z-index: 1000;
+    }
+
+    #cursor-background, #cursor-dot {
+        position: absolute;
+        border-radius: 50%;
+    }
+
+    #cursor-background {
+        width: 30px;
+        height: 30px;
+        background-color: rgba(48, 48, 48, 0.2);
+        transform: translate(-50%, -50%);
+        animation: scale 1s ease-in-out infinite alternate;
+    }
+
+    #cursor-dot {
+        width: 8px;
+        height: 8px;
+        background-color: rgb(79, 79, 79);
+        transform: translate(-50%, -50%);
+        animation: scale 1s ease-in-out infinite alternate;
+    }
+
+    @keyframes scale {
+        from {
+            transform: translate(-50%, -50%) scale(.7);
+        }
+        to {
+            transform: translate(-50%, -50%) scale(1.2);
+        }
+    }
+</style>
+
+<script>
+    const cursorBackground = document.getElementById('cursor-background');
+    const cursorDot = document.getElementById('cursor-dot');
+    let mouseX = 0, mouseY = 0;
+    let cursorX = 0, cursorY = 0;
+
+    document.addEventListener('mousemove', (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+    });
+
+    function animateCursor() {
+        cursorX += (mouseX - cursorX) * 1;
+        cursorY += (mouseY - cursorY) * 1;
+
+        cursorBackground.style.top = `${cursorY}px`;
+        cursorBackground.style.left = `${cursorX}px`;
+        cursorDot.style.top = `${cursorY}px`;
+        cursorDot.style.left = `${cursorX}px`;
+
+        requestAnimationFrame(animateCursor);
+    }
+
+    animateCursor();
+</script>
+
+
+    <div class="mainheadings" id="mainheadings">
+        <p class="textBig" align="center">
+            <span class="big2">Introducing a great editor in making ;)</span> <br>
+            <span class="big1">FragniX</span>
+        </p>
+        <button id="downloads-button" style="top: 10px;" onclick="window.open('https://drive.google.com/drive/folders/1vCTnHsRFFIZwrSdPH4sJiLcGA2VRrjIw', '_blank')">Download--v1.0.0</button>
+
+
+    </div>
+    
+
+    <script>
+        function updateMainHeadings() {
+            var w = window.innerWidth;
+            var h = window.innerHeight;
+            var mainheadings = document.getElementById("mainheadings");
+            mainheadings.style.fontSize = (h / 100) + "px";
+            mainheadings.style.width = (w / 1.5) + "px";
+            mainheadings.style.top = "50%";
+            mainheadings.style.left = "50%";
+            mainheadings.style.transform = "translate(-50%, -50%)";
+        }
+        window.addEventListener("resize", updateMainHeadings);
+        updateMainHeadings();
+    </script>
+
+
+        <img id="imgmain" src="imgmain.png" alt="Image 1">
+        <div class="intro">
+            <p class="subhead">A simple text/code <span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"><b>editor</b></span></p>
+            <p class="intropara">
+                <ul style="list-style: none; font-size: 1.2em; font-weight: 500;">
+                    <li>&#8594; Simple and lightweight</li>
+                    <li>&#8594; Code formatting</li>
+                    <li>&#8594; Has a command palette</li>
+                    <li>&#8594; Supports multiple cursors</li>
+                    <li>&#8594; Supports multiple tabs</li>
+                    <li>&#8594; Has a context menu</li>
+                    <li>&#8594; Is just pretty cool</li>
+                </ul>
+                <p style="font-size: 0.8em;color: gray; font-weight: 500;">Copyright dXcm 2025</p>
+            </p>
+        </div>
+
+
+        <script>
+            const big1 = document.querySelector(".big1");
+            big1.addEventListener('mouseover', () => {
+                big1.textContent = "originally known as coditor";
+                big1.style.fontSize = "4em";
+                big1.style.fontFamily = "monospace";
+            });
+            big1.addEventListener('mouseout', () => {
+                big1.textContent = "FragniX";
+                big1.style.fontSize = "7em";
+            });
+        </script>
+
+</section>
+
+
+<footer style="display: flex; justify-content: center; align-items: center; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); width: 100%; height: 50px; bottom: 0; position: fixed;">
+    <p style="margin-right: 10px; color: gray;">©dXcm, 2025</p>
+</footer>
+
+
+
+
+
+</body>
+
+</html>

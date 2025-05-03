@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.sky{
+    color: white;
+    z-index: 0;
+}
+
+.sky p {
+    font-size: 7.5px;
+    position: fixed;
+    text-shadow: 0 0 10px rgb(255, 255, 255),
+                 0 0 20px rgb(255, 255, 255),
+                 0 0 30px rgb(255, 255, 255),
+                 0 0 40px rgb(255, 255, 255),
+                 0 0 70px rgb(255, 255, 255),
+                 0 0 80px rgb(255, 255, 255),
+                 0 0 100px rgb(255, 255, 255);
+    top: calc(100vh * var(--random-top));
+    left: calc(100vw * var(--random-left));
+}
+
+@keyframes twinkle {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
+.sky p:nth-child(1) { --random-top: 0.1; --random-left: 0.1; animation: twinkle 4.2s ease-in-out infinite; }
+.sky p:nth-child(2) { --random-top: 0.2; --random-left: 0.3; animation: twinkle 5.2s ease-in-out infinite; }
+.sky p:nth-child(3) { --random-top: 0.15; --random-left: 0.8; animation: twinkle 3.7s ease-in-out infinite; }
+.sky p:nth-child(4) { --random-top: 0.4; --random-left: 0.2; animation: twinkle 4.7s ease-in-out infinite; }
+.sky p:nth-child(5) { --random-top: 0.5; --random-left: 0.6; animation: twinkle 5.7s ease-in-out infinite; }
+.sky p:nth-child(6) { --random-top: 0.65; --random-left: 0.1; animation: twinkle 4s ease-in-out infinite; }
+.sky p:nth-child(7) { --random-top: 0.7; --random-left: 0.5; animation: twinkle 4.4s ease-in-out infinite; }
+.sky p:nth-child(8) { --random-top: 0.3; --random-left: 0.7; animation: twinkle 5.4s ease-in-out infinite; }
+.sky p:nth-child(9) { --random-top: 0.25; --random-left: 0.4; animation: twinkle 3.4s ease-in-out infinite; }
+.sky p:nth-child(10) { --random-top: 0.9; --random-left: 0.2; animation: twinkle 5s ease-in-out infinite; }
+.sky p:nth-child(11) { --random-top: 0.8; --random-left: 0.9; animation: twinkle 6s ease-in-out infinite; }
+.sky p:nth-child(12) { --random-top: 0.55; --random-left: 0.3; animation: twinkle 4.5s ease-in-out infinite; }
+.sky p:nth-child(13) { --random-top: 0.6; --random-left: 0.8; animation: twinkle 5.5s ease-in-out infinite; }
+.sky p:nth-child(14) { --random-top: 0.35; --random-left: 0.6; animation: twinkle 3.8s ease-in-out infinite; }
+.sky p:nth-child(15) { --random-top: 0.45; --random-left: 0.9; animation: twinkle 4.8s ease-in-out infinite; }
+.sky p:nth-child(16) { --random-top: 0.85; --random-left: 0.4; animation: twinkle 5.8s ease-in-out infinite; }
+.sky p:nth-child(17) { --random-top: 0.75; --random-left: 0.7; animation: twinkle 5.1s ease-in-out infinite; }
+.sky p:nth-child(18) { --random-top: 0.2; --random-left: 0.5; animation: twinkle 4.1s ease-in-out infinite; }
+.sky p:nth-child(19) { --random-top: 0.11; --random-left: 0.21; animation: twinkle 4.3s ease-in-out infinite; }
+.sky p:nth-child(20) { --random-top: 0.82; --random-left: 0.91; animation: twinkle 5.3s ease-in-out infinite; }
+.sky p:nth-child(21) { --random-top: 0.31; --random-left: 0.42; animation: twinkle 3.6s ease-in-out infinite; }
+.sky p:nth-child(22) { --random-top: 0.56; --random-left: 0.67; animation: twinkle 4.6s ease-in-out infinite; }
+.sky p:nth-child(23) { --random-top: 0.98; --random-left: 0.19; animation: twinkle 5.6s ease-in-out infinite; }
+.sky p:nth-child(24) { --random-top: 0.42; --random-left: 0.13; animation: twinkle 3.5s ease-in-out infinite; }
+.sky p:nth-child(25) { --random-top: 0.58; --random-left: 0.59; animation: twinkle 4.9s ease-in-out infinite; }
+.sky p:nth-child(26) { --random-top: 0.7; --random-left: 0.22; animation: twinkle 5.9s ease-in-out infinite; }
+.sky p:nth-child(27) { --random-top: 0.15; --random-left: 0.35; animation: twinkle 4.4s ease-in-out infinite; }
+.sky p:nth-child(28) { --random-top: 0.25; --random-left: 0.75; animation: twinkle 3.9s ease-in-out infinite; }
+.sky p:nth-child(29) { --random-top: 0.62; --random-left: 0.45; animation: twinkle 5.4s ease-in-out infinite; }
+.sky p:nth-child(30) { --random-top: 0.77; --random-left: 0.27; animation: twinkle 4.2s ease-in-out infinite; }
+.sky p:nth-child(31) { --random-top: 0.18; --random-left: 0.65; animation: twinkle 5.7s ease-in-out infinite; }
+.sky p:nth-child(32) { --random-top: 0.48; --random-left: 0.87; animation: twinkle 3.7s ease-in-out infinite; }
+.sky p:nth-child(33) { --random-top: 0.59; --random-left: 0.33; animation: twinkle 5.5s ease-in-out infinite; }
+.sky p:nth-child(34) { --random-top: 0.88; --random-left: 0.58; animation: twinkle 4.1s ease-in-out infinite; }
+.sky p:nth-child(35) { --random-top: 0.22; --random-left: 0.92; animation: twinkle 4.6s ease-in-out infinite; }
+.sky p:nth-child(36) { --random-top: 0.67; --random-left: 0.4; animation: twinkle 5.8s ease-in-out infinite; }
+.sky p:nth-child(37) { --random-top: 0.73; --random-left: 0.53; animation: twinkle 4.3s ease-in-out infinite; }
+.sky p:nth-child(38) { --random-top: 0.29; --random-left: 0.62; animation: twinkle 5.2s ease-in-out infinite; }
+.sky p:nth-child(39) { --random-top: 0.45; --random-left: 0.77; animation: twinkle 3.5s ease-in-out infinite; }
+.sky p:nth-child(40) { --random-top: 0.9; --random-left: 0.29; animation: twinkle 5.9s ease-in-out infinite; }
+
